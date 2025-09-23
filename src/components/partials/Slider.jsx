@@ -1,24 +1,16 @@
 "use client";
-import { useState , useEffect} from "react";
+import { useState, useEffect } from "react";
 
-const images = [
-  "/a1.avif",
-    "/a2.avif",
-  "/a3.avif",
-
-
-];
+const images = ["/a1.avif", "/a2.avif", "/a3.avif"];
 
 export default function Slider() {
   const [current, setCurrent] = useState(0);
 
-
-    useEffect(() => {
+  useEffect(() => {
     const interval = setInterval(() => {
       setCurrent((prev) => (prev === images.length - 1 ? 0 : prev + 1));
-    }, 5000); 
-
-    return () => clearInterval(interval); 
+    }, 5000);
+    return () => clearInterval(interval);
   }, []);
 
   const nextSlide = () => {
@@ -64,7 +56,3 @@ export default function Slider() {
     </div>
   );
 }
-
-
-
-

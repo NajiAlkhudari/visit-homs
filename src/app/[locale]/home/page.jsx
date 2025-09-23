@@ -1,9 +1,12 @@
-import React from 'react'
+import React from 'react';
+import WeatherDashboard from '../../../components/WeatherDashboard';
 
-const page = () => {
+const Page = () => {
   return (
-    <div>page</div>
-  )
-}
+    <div className="container mx-auto p-4">
+      <WeatherDashboard />
+    </div>
+  );
+};
 
-export default page
+export default Page;

@@ -30,5 +30,12 @@
       "articles": ["Cooking Articles", "Health Tips", "Quick Recipes", "General Articles"],
       "contact": ["Contact Info", "Contact Form", "Locations", "Working Hours"]
     }
-  }
+  },
+    "about" : {
+    "title":"About Homs",
+    "description":"Homs proudly stands as one of Syria’s most prominent cities, centrally located on the country’s map as a vital link between Damascus and Aleppo, and between the mountains and the coast. Strategically positioned, it serves as a natural bridge connecting Syria’s diverse regions—north and south, interior and shoreline.Steeped in history, Homs carries within its soil the traces of civilizations that span thousands of years—from the Roman and Byzantine eras to the golden age of Islamic civilization. Throughout the centuries, it has flourished as a center of culture, trade, and learning. Every stone in Homs tells a story, every alleyway whispers echoes of the past, forming a living tapestry of heritage and diversity. Here, ancient meets modern, and tradition blends seamlessly with a rich, enduring identity."
+  },
+  "current" : "Current Weather in Homs",
+  "Humidity" : "Humidity",
+  "WindSpeed" : "Wind Speed"
 }
