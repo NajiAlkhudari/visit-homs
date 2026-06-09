@@ -67,6 +67,7 @@ import {
   CarouselNext,
 } from "@/components/ui/carousel";
 import { useGallery } from "@/store/galleryStore";
+import { resolveImageUrl } from "@/store/tourismStore";
 
 const CarouselDemo = () => {
   const { getGallery, galleries } = useGallery();
@@ -84,7 +85,7 @@ const CarouselDemo = () => {
               <div className="relative h-[200px] sm:h-[300px] md:h-[400px] lg:h-[600px] w-full overflow-hidden rounded-lg">
                 {image?.imageUrl ? (
                   <Image
-                    src={`${process.env.NEXT_PUBLIC_API_URL}/${image.imageUrl.replace(/^\/+/, "")}`}
+                    src={resolveImageUrl(image.imageUrl)}
                     alt={image.title || "Gallery Image"}
                     fill
                     className="object-cover"

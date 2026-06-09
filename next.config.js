@@ -21,6 +21,10 @@ const nextConfig = {
         port: '5047', // اختياري حسب حاجتك
         pathname: '/**', // للسماح بجميع المسارات
       },
+      {
+        protocol: "https",
+        hostname: "images.unsplash.com",
+      },
     ],
   },
 };

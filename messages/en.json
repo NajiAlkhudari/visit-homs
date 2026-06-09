@@ -1,5 +1,5 @@
 {
-    "HomePage": {
+  "HomePage": {
     "title": "Hello world!",
     "home": "Go to the home page"
   },
@@ -31,11 +31,80 @@
       "contact": ["Contact Info", "Contact Form", "Locations", "Working Hours"]
     }
   },
-    "about" : {
-    "title":"About Homs",
-    "description":"Homs proudly stands as one of Syria’s most prominent cities, centrally located on the country’s map as a vital link between Damascus and Aleppo, and between the mountains and the coast. Strategically positioned, it serves as a natural bridge connecting Syria’s diverse regions—north and south, interior and shoreline.Steeped in history, Homs carries within its soil the traces of civilizations that span thousands of years—from the Roman and Byzantine eras to the golden age of Islamic civilization. Throughout the centuries, it has flourished as a center of culture, trade, and learning. Every stone in Homs tells a story, every alleyway whispers echoes of the past, forming a living tapestry of heritage and diversity. Here, ancient meets modern, and tradition blends seamlessly with a rich, enduring identity."
+  "about": {
+    "title": "About Homs",
+    "description": "Homs proudly stands as one of Syria's most prominent cities, centrally located on the country's map as a vital link between Damascus and Aleppo, and between the mountains and the coast. Strategically positioned, it serves as a natural bridge connecting Syria's diverse regions—north and south, interior and shoreline. Steeped in history, Homs carries within its soil the traces of civilizations that span thousands of years—from the Roman and Byzantine eras to the golden age of Islamic civilization. Throughout the centuries, it has flourished as a center of culture, trade, and learning. Every stone in Homs tells a story, every alleyway whispers echoes of the past, forming a living tapestry of heritage and diversity. Here, ancient meets modern, and tradition blends seamlessly with a rich, enduring identity."
   },
-  "current" : "Current Weather in Homs",
-  "Humidity" : "Humidity",
-  "WindSpeed" : "Wind Speed"
+  "home": {
+    "hero": {
+      "eyebrow": "Welcome to Homs",
+      "title": "Discover Homs",
+      "subtitle": "The Bride of the Levant",
+      "scroll": "Scroll",
+      "imageAlt": "Krak des Chevaliers overlooking the valley"
+    },
+    "quickCategories": {
+      "items": {
+        "explore":   "Explore Homs",
+        "food":      "Food & Drink",
+        "stay":      "Stay",
+        "nature":    "Nature & Adventure",
+        "events":    "Events",
+        "articles":  "Articles"
+      }
+    },
+    "featuredPlaces": {
+      "eyebrow": "Highlights",
+      "title": "Top Attractions",
+      "subtitle": "Discover the best of Homs"
+    },
+    "events": {
+      "eyebrow": "Calendar",
+      "title": "Upcoming Events",
+      "viewAll": "View all events",
+      "dateFallback": "Coming soon",
+      "locationFallback": "Location to be announced"
+    },
+    "about": {
+      "eyebrow": "The story of the city",
+      "readMore": "Read more",
+      "imageAlt": "Historic architecture in Homs"
+    },
+    "restaurants": {
+      "eyebrow": "Dining",
+      "title": "Where to Eat",
+      "viewAll": "View all"
+    },
+    "articles": {
+      "eyebrow": "Editorial",
+      "title": "Explore Homs Stories",
+      "viewAll": "View all articles"
+    },
+    "map": {
+      "eyebrow": "Navigate",
+      "title": "Explore on the Map",
+      "subtitle": "Browse landmarks, restaurants, hotels and city highlights across Homs."
+    },
+    "plan": {
+      "eyebrow": "Travel tips",
+      "title": "Plan Your Visit",
+      "cards": {
+        "bestTime":  { "title": "Best Time to Visit",  "text": "Spring & Autumn" },
+        "culture":   { "title": "Cultural Respect",     "text": "A city of rich heritage" },
+        "transport": { "title": "Getting Around",       "text": "Taxi or car rental" },
+        "currency":  { "title": "Currency",             "text": "Syrian Pound (SYP)" }
+      }
+    },
+    "common": {
+      "viewAll": "View all",
+      "uncategorized": "Uncategorized"
+    }
+  },
+  "current":   "Current Weather in Homs",
+  "places":    "Places",
+  "events":    "Events",
+  "search":    "Search",
+  "noResults": "No results found",
+  "Humidity":  "Humidity",
+  "WindSpeed": "Wind Speed"
 }
